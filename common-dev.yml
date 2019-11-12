@@ -2,3 +2,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8861/eureka/
+
+#json时间转换为long型返回
+spring:
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
