@@ -1,4 +1,0 @@
-server:
-  port: 8871
-  servlet:
-    context-path: /aorun-bbs
