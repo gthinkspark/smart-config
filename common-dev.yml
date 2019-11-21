@@ -8,11 +8,3 @@ spring:
   jackson:
     serialization:
       WRITE_DATES_AS_TIMESTAMPS: true
-      
-#安全策略
-management:
-    #SpringCloud 2.0.0以后,有了改变.我们需要在bootstrap.yml里面加上需要暴露出来的地址
-  endpoints:
-    web:
-      exposure:
-        include: refresh,health
